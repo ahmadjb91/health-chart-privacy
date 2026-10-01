@@ -1,6 +1,6 @@
 # Privacy Policy — Health Chart
 
-*Last updated: [DATE]*
+*Last updated: [October 1, 2026]*
 *Replace the bracketed parts before publishing, and host this at a public URL
 (a free GitHub Pages page or a single page on your own site both work).*
 
