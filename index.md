@@ -1,17 +1,16 @@
 # Privacy Policy — Health Chart
 
-*Last updated: [October 1, 2026]*
-*Replace the bracketed parts before publishing, and host this at a public URL
-(a free GitHub Pages page or a single page on your own site both work).*
+*Last updated: October 2, 2026*
 
 ## The short version
 
 Most of what you enter stays only on your device. If you choose to sign in
-with a Google account or a phone number, your data is also backed up to a
-private cloud database tied to that account, so it can follow you to a new
-phone. If you use Contact us, that one message is emailed to the developer.
-Nothing is sold, shared with advertisers, or used for anything beyond what's
-described below.
+with a Google account or an email and password, your data is also backed
+up to a private cloud database tied to that account, so it can follow you
+to a new phone. If you subscribe, billing is handled entirely by Google
+Play — we never see or store your payment details. If you use Contact us,
+that one message is emailed to the developer. Nothing is sold, shared with
+advertisers, or used for anything beyond what's described below.
 
 ## What the app stores
 
@@ -30,16 +29,16 @@ On your device always:
 
 ## Cloud backup, if you sign in
 
-If you sign in with a **Google account** or a **phone number**, the data
-listed above is also backed up to a private cloud database (Google
-Firebase/Firestore), tied to that Google account or phone number. This is
-what lets your data follow you if you reinstall the app or move to a new
-phone by signing in again the same way.
+If you sign in with a **Google account** or an **email and password**, the
+data listed above is also backed up to a private cloud database (Google
+Firebase/Firestore), tied to that account. This is what lets your data
+follow you if you reinstall the app or move to a new phone by signing in
+again the same way.
 
-If you instead choose **local-only** setup (no Google or phone sign-in),
-none of your data ever leaves the device — there is nothing to back up
-anywhere, and losing the device means losing the data unless you've used
-**Export my data** in Profile.
+If you instead choose **local-only** setup (no account), none of your data
+ever leaves the device — there is nothing to back up anywhere, and losing
+the device means losing the data unless you've used **Export my data** in
+Profile.
 
 Only you can access this cloud backup, through your own sign-in. The
 developer does not browse or read individual users' health data; the cloud
@@ -50,11 +49,24 @@ share it with anyone else, including us.
 
 - **Google sign-in** shares your name, email address and profile photo with
   the app, via Google's own sign-in process.
-- **Phone sign-in** verifies your phone number by text message, via
-  Firebase Authentication (part of Google Firebase).
+- **Email sign-in** uses the email and password you choose. Your password
+  is sent only to Firebase Authentication (part of Google Firebase) to
+  verify it's you — this app never stores or sees it itself.
 
 Neither is required — you can use the app fully with a **local-only**
 profile instead, with no account and no data leaving the device at all.
+
+## Subscription and billing
+
+Health Chart offers an optional subscription with a free trial. All
+billing — the free trial, the charge once it ends, renewals, and
+cancellations — is handled entirely by **Google Play Billing**. We never
+receive, see, or store your card number or other payment details; Google
+processes all of that directly. The app only learns whether a
+subscription is currently active, not any payment information. You can
+view or cancel your subscription at any time from Profile → **Manage
+subscription**, which opens Google Play's own subscription management
+page, or directly within the Google Play Store app.
 
 ## Health Connect and paired devices
 
@@ -95,11 +107,12 @@ You can refuse any of these. The rest of the app continues to work.
 
 ## Sharing
 
-Beyond the cloud backup (accessible only to you, via your own sign-in) and
-the Contact us form (which you initiate), we do not sell, share or transfer
-your data. When you generate a report or export your data, you choose where
-it goes — printing it, saving it, or sending it to your doctor is your
-action, not ours.
+Beyond the cloud backup (accessible only to you, via your own sign-in),
+Google Play Billing (for subscriptions, described above), and the Contact
+us form (which you initiate), we do not sell, share or transfer your data.
+When you generate a report or export your data, you choose where it goes —
+printing it, saving it, or sending it to your doctor is your action, not
+ours.
 
 ## Deleting your data
 
@@ -114,8 +127,8 @@ below.
 If you use a **local-only** profile, your data is not backed up anywhere
 by us — losing or resetting your phone, or clearing the app's storage,
 loses it permanently unless you've used **Export my data** in Profile
-first. Signing in with Google or a phone number backs your data up
-automatically, as described above.
+first. Signing in with Google or email backs your data up automatically,
+as described above.
 
 ## Not a medical device
 
